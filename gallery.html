@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Ntarinkon Cooperative Credit Union</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">
+            <span class="logo-text">Ntarinkon CCU</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rates.html">Rates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="btn btn-primary btn-login ms-lg-3 px-4 py-2"
+                  href="index.html#login"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <style>
+        .custom-navbar {
+          background: rgba(255, 255, 255, 0.85);
+          box-shadow: 0 4px 24px rgba(30, 64, 175, 0.08);
+          backdrop-filter: blur(8px);
+          border-bottom: 1px solid rgba(26, 75, 132, 0.08);
+          transition: background 0.3s;
+        }
+        .custom-navbar .navbar-brand .logo-text {
+          color: #1a4b84;
+          font-size: 2rem;
+          letter-spacing: 1px;
+        }
+        .custom-navbar .nav-link {
+          color: #1a4b84 !important;
+          font-weight: 500;
+          padding: 0.5rem 1rem;
+          border-radius: 6px;
+          transition: background 0.2s, color 0.2s;
+        }
+        .custom-navbar .nav-link.active,
+        .custom-navbar .nav-link:focus,
+        .custom-navbar .nav-link:hover {
+          background: #eaf1fa;
+          color: #153a6b !important;
+        }
+        .custom-navbar .btn-login {
+          background: #1a4b84;
+          color: #fff !important;
+          border-radius: 6px;
+          font-weight: 600;
+          box-shadow: 0 2px 8px rgba(26, 75, 132, 0.08);
+          transition: background 0.2s, color 0.2s;
+        }
+        .custom-navbar .btn-login:hover {
+          background: #153a6b;
+          color: #fff !important;
+        }
+        @media (max-width: 991.98px) {
+          .custom-navbar .navbar-nav {
+            gap: 0 !important;
+          }
+          .custom-navbar .btn-login {
+            margin-top: 1rem;
+            width: 100%;
+          }
+        }
+      </style>
+    </header>
+
+    <section class="gallery-section py-5 mt-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Our Gallery</h2>
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1515168833906-d2a3b82b1e1c?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Credit Union Meeting"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Community Event"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Financial Planning"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Teamwork"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Microfinance"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Savings"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Happy Members"
+            />
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <img
+              src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+              class="img-fluid rounded shadow-sm gallery-img"
+              alt="Financial Education"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="footer mt-5 pt-5 pb-3 position-relative"
+      style="
+        background: linear-gradient(120deg, #1a4b84 60%, #3a7bd5 100%);
+        color: #fff;
+      "
+    >
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h3 class="fw-bold mb-2">Ntarinkon CCU</h3>
+            <p class="mb-3">Your trusted financial partner since 2010</p>
+            <div class="d-flex gap-2">
+              <a href="#" class="footer-social"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="footer-social"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="footer-social"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="footer-social"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="rates.html">Rates</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="mb-3">Contact</h5>
+            <ul class="list-unstyled mb-2">
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2"></i>123 Main Street, City,
+                Country
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone me-2"></i>+1 234 567 8900
+              </li>
+              <li><i class="fas fa-envelope me-2"></i>info@ntarinkonccu.com</li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="footer-bottom text-center mt-4 pt-3 border-top border-white-50"
+        >
+          <p class="mb-0 small">
+            &copy; <span id="footer-year"></span> Ntarinkon Cooperative Credit
+            Union. All rights reserved.
+          </p>
+        </div>
+        <button
+          id="backToTop"
+          class="btn btn-light btn-sm rounded-circle position-absolute end-0 bottom-0 m-4 shadow"
+          style="display: none; z-index: 10"
+        >
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+      <style>
+        .footer {
+          background: linear-gradient(120deg, #1a4b84 60%, #3a7bd5 100%);
+          color: #fff;
+        }
+        .footer-links a {
+          color: #fff;
+          text-decoration: none;
+          display: block;
+          margin-bottom: 0.5rem;
+          transition: color 0.2s;
+        }
+        .footer-links a:hover {
+          color: #eaf1fa;
+        }
+        .footer-social {
+          color: #fff;
+          background: rgba(255, 255, 255, 0.08);
+          width: 36px;
+          height: 36px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          font-size: 1.1rem;
+          transition: background 0.2s, color 0.2s;
+        }
+        .footer-social:hover {
+          background: #fff;
+          color: #1a4b84;
+        }
+        #backToTop {
+          background: #fff;
+          color: #1a4b84;
+          border: none;
+          font-size: 1.2rem;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: background 0.2s, color 0.2s;
+        }
+        #backToTop:hover {
+          background: #eaf1fa;
+          color: #153a6b;
+        }
+        @media (max-width: 991.98px) {
+          .footer .row > div {
+            margin-bottom: 2rem;
+          }
+        }
+      </style>
+      <script>
+        // Auto-update year
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("footer-year").textContent =
+            new Date().getFullYear();
+        });
+        // Back to top button
+        const backToTop = document.getElementById("backToTop");
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 300) backToTop.style.display = "flex";
+          else backToTop.style.display = "none";
+        });
+        backToTop.addEventListener("click", function () {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      </script>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
