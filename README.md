@@ -85,5 +85,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For any questions or support, please contact:
 
-- Email: info@ntarinkonccu.com
-- Phone: +1 234 567 8900
+- Email: info@ntaccul.cm
+- Phone: +237 683 773 172
